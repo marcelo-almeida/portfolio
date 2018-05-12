@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+main, header {
+    color: #2d3c49;
+    margin: 2%;
+}
+
+header {
+  text-align: right;
+}
+
+.section:hover {
+    box-shadow: 8px 6px 20px 1px;
+}
+
+.color_title {
+  color: #7d97ad;
+}
+
+.left_align {
+    text-align: left;
+}
+
+.right_align {
+    text-align: right;
+}
+
+.divider {
+  height: 0.2em;
+  background: #7d97ad;
+}
+
+.footer{
+    background: #7d97ad;
+    border-radius: 0.5em;
+}
+
+.button {
+    text-decoration: none;
+    color: #000000;
+    padding: 2em;
+}

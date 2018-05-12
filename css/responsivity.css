@@ -1,0 +1,65 @@
+.contact_footer {
+    order: 1;
+    width: 50%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.developer_footer {
+    order: 2;
+    width: 49%;
+    text-align: right;
+    padding-right: 0.1em;
+}
+
+@media screen and (max-width: 900px) {
+	.icon_align {
+        float : left;
+        width: 15%;
+        max-width: 4em;
+    }
+
+    .image_size {
+        max-width: 100%;
+    }
+
+    .image_panel_size {
+        width: 100%;
+    }
+
+    .section {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+	.icon_align {
+        float : left;
+        width: 10%;
+        max-width: 4em;
+    }
+
+    .image_size {
+        max-width: 100%;
+        height: auto;
+        max-height: 9em;
+        min-height: 9em;
+    }
+
+    .image_panel_size {
+        width: 100%;
+        max-height: 18em;
+    }
+
+    .section {
+        text-align: center;
+        width: 33.333%;
+        margin-bottom: 2%;
+    }
+}
