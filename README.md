@@ -1,5 +1,5 @@
 # Portfolio
-This repository contains a example of a portfolio page using responsivity layout.
+This repository contains an example of a portfolio page using responsivity layout.
 ## Requirements
 * Internet Browser (Chrome, Firefox, Edge...)
 ## How to run
